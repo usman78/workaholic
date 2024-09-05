@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body {
@@ -15,4 +16,59 @@ body {
 
 h1, p {
     text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #44B78B;
+    color: white;
+    font-size: 2.5rem;
+}
+.InputField {
+    width: 275px;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+.input-area {
+    margin-top: 50px;
+    padding-left: 75px;
+    padding-bottom: 50px;
+}
+.user-area {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.pass-area {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-content: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+.submit-button {
+    cursor: pointer;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 5px 20px;
+}
+.submit-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pass-label {
+    margin-top: 10px;
+}
+.user-label {
+    margin-top: 10px;
 }
